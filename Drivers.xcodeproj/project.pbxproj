@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341A03472D3BF52100783673 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 341A03462D3BF52100783673 /* FirebaseAuth */; };
+		341A03492D3BF52100783673 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 341A03482D3BF52100783673 /* FirebaseCore */; };
+		341A034B2D3BF52100783673 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 341A034A2D3BF52100783673 /* FirebaseDatabase */; };
+		341A034D2D3BF52100783673 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 341A034C2D3BF52100783673 /* FirebaseFirestore */; };
+		341A034F2D3BF52100783673 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 341A034E2D3BF52100783673 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341A03292D3BF43500783673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341A030F2D3BF43400783673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341A03162D3BF43400783673;
+			remoteInfo = Drivers;
+		};
+		341A03332D3BF43500783673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341A030F2D3BF43400783673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341A03162D3BF43400783673;
+			remoteInfo = Drivers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341A03172D3BF43400783673 /* Drivers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drivers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341A03282D3BF43500783673 /* DriversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		341A03322D3BF43500783673 /* DriversUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriversUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		341A03192D3BF43400783673 /* Drivers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Drivers;
+			sourceTree = "<group>";
+		};
+		341A032B2D3BF43500783673 /* DriversTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriversTests;
+			sourceTree = "<group>";
+		};
+		341A03352D3BF43500783673 /* DriversUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DriversUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341A03142D3BF43400783673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341A034B2D3BF52100783673 /* FirebaseDatabase in Frameworks */,
+				341A034D2D3BF52100783673 /* FirebaseFirestore in Frameworks */,
+				341A03492D3BF52100783673 /* FirebaseCore in Frameworks */,
+				341A034F2D3BF52100783673 /* FirebaseStorage in Frameworks */,
+				341A03472D3BF52100783673 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A03252D3BF43500783673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A032F2D3BF43500783673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341A030E2D3BF43400783673 = {
+			isa = PBXGroup;
+			children = (
+				341A03192D3BF43400783673 /* Drivers */,
+				341A032B2D3BF43500783673 /* DriversTests */,
+				341A03352D3BF43500783673 /* DriversUITests */,
+				341A03182D3BF43400783673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341A03182D3BF43400783673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341A03172D3BF43400783673 /* Drivers.app */,
+				341A03282D3BF43500783673 /* DriversTests.xctest */,
+				341A03322D3BF43500783673 /* DriversUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341A03162D3BF43400783673 /* Drivers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341A033C2D3BF43500783673 /* Build configuration list for PBXNativeTarget "Drivers" */;
+			buildPhases = (
+				341A03132D3BF43400783673 /* Sources */,
+				341A03142D3BF43400783673 /* Frameworks */,
+				341A03152D3BF43400783673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				341A03192D3BF43400783673 /* Drivers */,
+			);
+			name = Drivers;
+			packageProductDependencies = (
+				341A03462D3BF52100783673 /* FirebaseAuth */,
+				341A03482D3BF52100783673 /* FirebaseCore */,
+				341A034A2D3BF52100783673 /* FirebaseDatabase */,
+				341A034C2D3BF52100783673 /* FirebaseFirestore */,
+				341A034E2D3BF52100783673 /* FirebaseStorage */,
+			);
+			productName = Drivers;
+			productReference = 341A03172D3BF43400783673 /* Drivers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341A03272D3BF43500783673 /* DriversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341A033F2D3BF43500783673 /* Build configuration list for PBXNativeTarget "DriversTests" */;
+			buildPhases = (
+				341A03242D3BF43500783673 /* Sources */,
+				341A03252D3BF43500783673 /* Frameworks */,
+				341A03262D3BF43500783673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341A032A2D3BF43500783673 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				341A032B2D3BF43500783673 /* DriversTests */,
+			);
+			name = DriversTests;
+			packageProductDependencies = (
+			);
+			productName = DriversTests;
+			productReference = 341A03282D3BF43500783673 /* DriversTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341A03312D3BF43500783673 /* DriversUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341A03422D3BF43500783673 /* Build configuration list for PBXNativeTarget "DriversUITests" */;
+			buildPhases = (
+				341A032E2D3BF43500783673 /* Sources */,
+				341A032F2D3BF43500783673 /* Frameworks */,
+				341A03302D3BF43500783673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341A03342D3BF43500783673 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				341A03352D3BF43500783673 /* DriversUITests */,
+			);
+			name = DriversUITests;
+			packageProductDependencies = (
+			);
+			productName = DriversUITests;
+			productReference = 341A03322D3BF43500783673 /* DriversUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341A030F2D3BF43400783673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					341A03162D3BF43400783673 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					341A03272D3BF43500783673 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 341A03162D3BF43400783673;
+					};
+					341A03312D3BF43500783673 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 341A03162D3BF43400783673;
+					};
+				};
+			};
+			buildConfigurationList = 341A03122D3BF43400783673 /* Build configuration list for PBXProject "Drivers" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341A030E2D3BF43400783673;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 341A03182D3BF43400783673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341A03162D3BF43400783673 /* Drivers */,
+				341A03272D3BF43500783673 /* DriversTests */,
+				341A03312D3BF43500783673 /* DriversUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341A03152D3BF43400783673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A03262D3BF43500783673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A03302D3BF43500783673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341A03132D3BF43400783673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A03242D3BF43500783673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341A032E2D3BF43500783673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341A032A2D3BF43500783673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341A03162D3BF43400783673 /* Drivers */;
+			targetProxy = 341A03292D3BF43500783673 /* PBXContainerItemProxy */;
+		};
+		341A03342D3BF43500783673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341A03162D3BF43400783673 /* Drivers */;
+			targetProxy = 341A03332D3BF43500783673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		341A033A2D3BF43500783673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		341A033B2D3BF43500783673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		341A033D2D3BF43500783673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Drivers/Drivers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drivers/Preview Content\"";
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drivers;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.Drivers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		341A033E2D3BF43500783673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Drivers/Drivers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drivers/Preview Content\"";
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drivers;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.Drivers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		341A03402D3BF43500783673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.DriversTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drivers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drivers";
+			};
+			name = Debug;
+		};
+		341A03412D3BF43500783673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.DriversTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drivers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Drivers";
+			};
+			name = Release;
+		};
+		341A03432D3BF43500783673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.DriversUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Drivers;
+			};
+			name = Debug;
+		};
+		341A03442D3BF43500783673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V955UP3Y27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.truckerselite.DriversUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Drivers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341A03122D3BF43400783673 /* Build configuration list for PBXProject "Drivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341A033A2D3BF43500783673 /* Debug */,
+				341A033B2D3BF43500783673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341A033C2D3BF43500783673 /* Build configuration list for PBXNativeTarget "Drivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341A033D2D3BF43500783673 /* Debug */,
+				341A033E2D3BF43500783673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341A033F2D3BF43500783673 /* Build configuration list for PBXNativeTarget "DriversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341A03402D3BF43500783673 /* Debug */,
+				341A03412D3BF43500783673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341A03422D3BF43500783673 /* Build configuration list for PBXNativeTarget "DriversUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341A03432D3BF43500783673 /* Debug */,
+				341A03442D3BF43500783673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		341A03462D3BF52100783673 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		341A03482D3BF52100783673 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		341A034A2D3BF52100783673 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		341A034C2D3BF52100783673 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		341A034E2D3BF52100783673 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341A03452D3BF52100783673 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 341A030F2D3BF43400783673 /* Project object */;
+}
